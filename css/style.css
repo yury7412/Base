@@ -19,12 +19,6 @@ li{
     z-index: 1000;
 }
 
-.logo-header{
-    margin-top: -191px;
-    margin-right: 80px; 
-}
-
-
 
 
 
@@ -301,6 +295,12 @@ li{
     margin-bottom: 50px;
 }
 
+.logo-header{
+    margin-top: -191px;
+    margin-right: 70px; 
+}
+
+
 
 
   
@@ -548,6 +548,8 @@ li{
     margin-top: 20px;
 }
 
+
+
 .port a{
     color: #9BAED5;
 }
@@ -570,6 +572,13 @@ li{
 	border: none;
 	border-top: 1px solid rgb(255, 255, 255);
 }
+
+
+.a_footer{
+    margin-top: 25px;
+}
+
+
 
 @media screen and (max-width:480px){
     .title{
@@ -611,7 +620,7 @@ li{
     }
 
     .card img{
-        width: 100%;
+        width: 343px;
         height: auto;
     }
 
@@ -691,6 +700,5 @@ li{
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 20px;
-    }
-   
+    }   
 }
