@@ -714,7 +714,7 @@ li{
         gap: 20px;
     }
 
-    .tel_footer a, .addres__footer a, .email__footer a{
+    .tel_footer a, .addres__footer a, .email__footer a, .menu_footer ul li a, .btn_right a{
         font-size: 16px;
-    }  
+    }
 }
