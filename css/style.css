@@ -592,6 +592,51 @@ li{
     color: #fff;
 }
 
+.line__footer{
+    border: 1px solid #464C5A;
+    margin-top: 60px;
+}
+
+.copy__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.cpr_a a, .politic a{
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.card__doc a:hover{
+    color: #626262;
+    transform: .3s;
+}
+
+.tel_footer a:hover{
+    color: #b5b5b5;
+}
+
+.addres__footer a:hover{
+    color: #b5b5b5;
+}
+
+.email__footer a:hover{
+    color: #b5b5b5;
+}
+
+.menu_footer a:hover{
+    color: #b5b5b5;
+}
+
+.copy__content a:hover{
+    color: #b5b5b5;
+}
+
 @media screen and (max-width:480px){
     .title{
         font-size: 30px;
@@ -717,4 +762,12 @@ li{
     .tel_footer a, .addres__footer a, .email__footer a, .menu_footer ul li a, .btn_right a{
         font-size: 16px;
     }
+
+    .copy__content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .politic{
+        margin-top: 8px;
+    }   
 }
