@@ -185,7 +185,6 @@ li{
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    cursor: pointer;
 }
 
 .card__content:hover {
